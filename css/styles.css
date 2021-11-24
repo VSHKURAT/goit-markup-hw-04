@@ -125,6 +125,7 @@ img {
 }
 
 .auth-nav-link {
+  align-items: center;
   color: #757575;
   font-size: 14px;
   line-height: 1.14;
@@ -357,8 +358,6 @@ img {
 .clients-item {
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
 }
 
 .clients-item + .clients-item {
@@ -368,7 +367,7 @@ img {
 .clients-link:hover,
 .clients-link:focus {
   color: var(--hover-color);
-  border: 1px solid #2196f3;
+  border-color: var(--hover-color);
 }
 
 .clients-link {
@@ -378,6 +377,8 @@ img {
   justify-content: center;
   display: flex;
   color: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .clients-icon {
@@ -388,6 +389,7 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer {
@@ -473,7 +475,6 @@ img {
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 20px;
-  margin-top: 12px;
 }
 
 .footer-icon {
@@ -527,6 +528,7 @@ img {
 .project-description {
   font-size: 16px;
   line-height: 1.87;
+  color: var(--primary-text-color);
 }
 
 .gallery {
